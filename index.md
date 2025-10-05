@@ -29,11 +29,11 @@ Antes de estudiar las sentencias de control de flujo en C#, es importante record
 
 Para construir expresiones condicionales, se pueden utilizar:
 
-- Operadores aritméticos: `+, -, *, /, %`
+- **Operadores aritméticos:** `+, -, *, /, %`
 
-- Operadores de comparación: `<, >, <=, >=, !=, ==`
+- **Operadores de comparación:** `<, >, <=, >=, !=, ==`
 
-- Operadores lógicos: `!, ||, &&`
+- **Operadores lógicos:** `!, ||, &&`
   
 El resultado de estas expresiones debe ser un valor **booleano**, que servirá como base para controlar el flujo del programa.
 
@@ -43,8 +43,6 @@ El resultado de estas expresiones debe ser un valor **booleano**, que servirá c
 # <a name="_apartado2"></a>2. Sentencias Condicionales o de Selección.
 
 Estas sentencias permiten ejecutar diferentes bloques de código según el resultado de una o varias condiciones.
-
-<br>
 
 ## Sentencia if 
 
@@ -56,7 +54,7 @@ La sentencia `if` evalúa una condición lógica. Si el resultado es `true`, se 
 **Sintaxis:**
 
 ```csharp
-if (condición)
+if (condicion)
 {
 	//Instrucciones a ejecutar si la condición es true 
 }
@@ -84,13 +82,13 @@ La sentencia `if...else` permite ejecutar uno de dos bloques de código, dependi
 **Sintaxis:**
 
 ```csharp
-if (condición)
+if (condicion)
 {
-	// Instrucciones a ejecutar si la condición es true
+   // Instrucciones a ejecutar si la condición es true
 }
 else
 {
-	// Instrucciones a ejecutar si la condición es false
+   // Instrucciones a ejecutar si la condición es false
 }
 ```
 
@@ -99,11 +97,11 @@ else
 ```csharp
 if (edad >= 18)
 {
-	Console.WriteLine("Mayor de edad");
+   Console.WriteLine("Mayor de edad");
 }
 else
 {
-	Console.WriteLine("Menor de edad");
+   Console.WriteLine("Menor de edad");
 }
 ```
 
@@ -118,7 +116,7 @@ Cuando cada rama del if y del else contiene **una única instrucción**, se pued
 **Sintaxis:**
 
 ```csharp
-condición ? valor_si_true : valor_si_false;
+condicion ? valor_si_true : valor_si_false;
 ```
 
 **Ejemplo:**
@@ -144,32 +142,32 @@ En esos casos, podemos utilizar sentencias **if anidadas** para evaluar varias c
 **Sintaxis:**
 
 ```csharp
-if (condición1)
+if (condicion1)
 {
-	// Instrucciones si condición1 es true
+   // Instrucciones si condición1 es true
 }
-else if (condición2)
+else if (condicion2)
 {
-	// Instrucciones si condición2 es true
+   // Instrucciones si condición2 es true
 }
 else
 {
-	// Instrucciones si ninguna condición anterior se cumple
+   // Instrucciones si ninguna condición anterior se cumple
 }
 ```
 
 **Ejemplo:**
 
-```csharp
+```c#
 int edad = 16;
  
 if (edad >= 65)
 {
-	Console.WriteLine("Adulto mayor");
+   Console.WriteLine("Adulto mayor");
 }
 else if (edad >= 30)
 {
-	Console.WriteLine("Adulto");
+   Console.WriteLine("Adulto");
 }
 else if (edad >= 13)
 {
@@ -200,7 +198,7 @@ Si el valor coincide con alguno de los patrones definidos, se ejecuta el bloque 
 ```csharp
 switch (expresion)
 {
-	case patron1:
+    case patron1:
       //Sentencias
       break;
 
@@ -216,7 +214,7 @@ switch (expresion)
 
    default:
       // Sentencias por defecto
-		break;
+	   break;
 }
 ```
 
@@ -225,24 +223,24 @@ switch (expresion)
 
 ```csharp
 int edad = 18;
- 
+
 switch (edad)
 {
-   case 0:
-      Console.WriteLine("Recién nacido");
-      break;
-   case 13:
-      Console.WriteLine("Inicio de la adolescencia");
-      break;
-   case 18:
-      Console.WriteLine("Mayor de edad");
-      break;
-   case 65:
-      Console.WriteLine("Edad de jubilación");
-      break;
-   default:
-      Console.WriteLine("Edad sin hito específico");
-      break;
+    case 0:
+        Console.WriteLine("Recién nacido");
+        break;
+    case 13:
+        Console.WriteLine("Inicio de la adolescencia");
+        break;
+    case 18:
+        Console.WriteLine("Mayor de edad");
+        break;
+    case 65:
+        Console.WriteLine("Edad de jubilación");
+        break;
+    default:
+        Console.WriteLine("Edad sin hito específico");
+        break;
 }
 ```
 
@@ -259,34 +257,34 @@ int edad = 18;
 
 switch (edad)
 {
-	case 0:
-      Console.WriteLine("Recién nacido");
-      break;
+    case 0:
+        Console.WriteLine("Recién nacido");
+        break;
 
-   case 13:
-   case 14:
-   case 15:
-   case 16:
-   case 17:
-      Console.WriteLine("Adolescente");
-      break;
+    case 13:
+    case 14:
+    case 15:
+    case 16:
+    case 17:
+        Console.WriteLine("Adolescente");
+        break;
 
-   case 18:
-   case 19:
-   case 20:
-      Console.WriteLine("Joven adulto");
-		break;
+    case 18:
+    case 19:
+    case 20:
+        Console.WriteLine("Joven adulto");
+        break;
 
-   case 65:
-   case 66:
-   case 67:
-      Console.WriteLine("Edad de jubilación");
-      break;
-      
-   default:
-      Console.WriteLine("Edad sin hito específico");
-      break;
-  }
+    case 65:
+    case 66:
+    case 67:
+        Console.WriteLine("Edad de jubilación");
+        break;
+
+    default:
+        Console.WriteLine("Edad sin hito específico");
+        break;
+}
 ```
 
 **Uso de default**
@@ -358,8 +356,8 @@ static void Main(string[] args)
             break;
 
          case NotasMusicales.Si:
-               frecuencia = 493.88; // Frecuencia de Si en Hz
-               break;
+            frecuencia = 493.88; // Frecuencia de Si en Hz
+            break;
 
          default:
             // Valor predeterminado si la nota no se reconoce
@@ -396,7 +394,7 @@ Las sentencias `while` y `do…while` permiten ejecutar un bloque de código **m
 
 Podemos utilizar estas instrucciones cuando **conocemos la condición** que debe cumplirse para **continuar la ejecución**, pero podemos no conocer el número de veces que se repite el ciclo.
 
-La principal diferencia entre ambas estructuras es cuándo se evalúa la condición:
+La principal diferencia entre ambas estructuras es **cuándo se evalúa la condición**:
 
 - En un bucle `while`, la condición se evalúa **antes** de ejecutar el bloque. Si la condición es falsa desde el inicio, el bloque no se ejecuta.
   
@@ -411,9 +409,9 @@ La principal diferencia entre ambas estructuras es cuándo se evalúa la condici
 **Sintaxis de while:**
 
 ```csharp
-while (condición)
+while (condicion)
 {
-//Sentencias;
+   //Sentencias;
 }
 ```
  
@@ -429,8 +427,8 @@ while (condición)
 ```csharp	
 do
 {
-//Sentencias;
-} while (Condición);
+   //Sentencias;
+} while (condicion);
 ```
  
 **Ejemplo 1: Mostrar los números del 1 al 10 con sentencia while**
@@ -454,8 +452,8 @@ const int Numero = 10;
 
 do
 {
-Console.WriteLine(i);
-       i++;
+   Console.WriteLine(i);
+   i++;
 } while (i <= Numero);
 ```
 
@@ -470,7 +468,7 @@ Para ello se utiliza una variable contador que controla el número de repeticion
 **Sintaxis:**
 
 ```csharp
-for (inicialización; condición; incremento)
+for (inicializacion; condicion; incremento)
 {
    Sentencias;
 }
@@ -558,7 +556,7 @@ Estos tipos de colecciones los veremos más detalladamente en los temas siguient
 ```csharp
 foreach (tipo variable in colección)
 {
-	//Sentencias a ejecutar con cada ele //mento 'variable' 
+   //Sentencias a ejecutar con cada elemento 'variable' 
 }
 ```
 
@@ -717,4 +715,5 @@ if (numero < 0)
 }
  
 Console.WriteLine($"Has introducido el número {numero}.");
+```
 
