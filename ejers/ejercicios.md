@@ -2,6 +2,8 @@
 
 <br>
 
+<a id="apartado_1"></a>
+
 # Instrucciones generales
 
 - **Entorno:** Visual Studio 2022 (Community). Proyectos Windows Forms y Consola en C#.

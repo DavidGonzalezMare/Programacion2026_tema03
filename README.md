@@ -8,7 +8,9 @@
 <br>
 <br>
 
-# <a name="_apartado1"></a>1. Introducción.
+<a id="_apartado1"></a>
+
+# 1. Introducción.
 
 El orden en que se ejecutan las instrucciones de un programa se conoce como **flujo de control**. 
 
@@ -31,7 +33,9 @@ El resultado de estas expresiones debe ser un valor **booleano**, que servirá c
 <br>
 <br>
 
-# <a name="_apartado2"></a>2. Sentencias Condicionales o de Selección.
+<a id="_apartado2"></a>
+
+# 2. Sentencias Condicionales o de Selección.
 
 Estas sentencias permiten ejecutar diferentes bloques de código según el resultado de una o varias condiciones.
 
@@ -375,7 +379,9 @@ La cláusula `default` dentro del `switch` solo se ejecutaría si el valor de no
 <br>
 <br>
 
-# <a name="_apartado3"></a>3. Sentencias de Repetición (Iteración)
+<a id="_apartado3"></a>
+
+# 3. Sentencias de Repetición (Iteración)
 
 <br>
 
@@ -633,7 +639,9 @@ static void Main(string[] args)
 <br>
 <br>
 
-# <a name="_apartado4"></a>4. Sentencias de Salto
+<a id="_apartado4"></a>
+
+# 4. Sentencias de Salto
 
 <br>
 

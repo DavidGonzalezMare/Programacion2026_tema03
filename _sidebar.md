@@ -8,4 +8,4 @@
 
   - [4.	Sentencias de salto](README.md#apartado_4)
 
-  - [Ejercicios](ejers/ejercicios.md)
+  - [Ejercicios](ejers/ejercicios.md#_apartado1)
