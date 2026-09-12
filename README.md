@@ -5,15 +5,6 @@
 
 # Tema 3. Sentencias de Control de Flujo
 
-[*1.	Introducción*](#_apartado1)
-
-[*2.	Sentencias Condicionales*](#_apartado2)
-
-[*3.	Sentencias de Repetición*](#_apartado3)
-
-[*4.	Sentencias de salto*](#_apartado4)
-
-
 <br>
 <br>
 
