@@ -39,7 +39,9 @@
 Realiza un programa que lea un número entero introducido por el usuario desde la consola. **Si el número es 2**, debe mostrar el mensaje: 
 
 - "El número introducido es el 2". 
+  
 En caso contrario, debe mostrar: 
+
 - "El número introducido NO es el 2".
 
 ## Ejercicio 2: Comparativa de 2 números enteros
@@ -62,12 +64,12 @@ Realizar un programa que permita leer un número de serie y nos diga si es o no 
 
 Realiza un programa que lea una **nota numérica con decimales** introducida por el usuario a través de la consola y muestre un mensaje indicando su calificación según el siguiente criterio:
 
-1. 	**Muy deficiente:** nota inferior a 3
-2. 	**Insuficiente:** nota entre 3 (inclusive) y 5 (exclusiva)
-3. 	**Suficiente:** nota entre 5 (inclusive) y 6 (exclusiva)
-4. 	**Bien:** nota entre 6 (inclusive) y 7 (exclusiva)
-5. 	**Notable:** nota entre 7 (inclusive) y 9 (exclusiva)
-6. 	**Sobresaliente:** nota igual o superior a 9
+1. **Muy deficiente:** nota inferior a 3
+2. **Insuficiente:** nota entre 3 (inclusive) y 5 (exclusiva)
+3. **Suficiente:** nota entre 5 (inclusive) y 6 (exclusiva)
+4. **Bien:** nota entre 6 (inclusive) y 7 (exclusiva)
+5. **Notable:** nota entre 7 (inclusive) y 9 (exclusiva)
+6. **Sobresaliente:** nota igual o superior a 9
    
 Por ejemplo, si el usuario introduce la nota 7,25, el programa debe mostrar: "Notable".
 
@@ -98,11 +100,11 @@ Realizar un programa de consola en **C#** que lea una instrucción escrita por e
 
 Las instrucciones válidas son:
 
-- "lavar los platos"
-- "barrer el piso"
-- "sacar la basura"
-- "regar las plantas"
-- "hacer la cama"
+- lavar los platos
+- barrer el piso
+- sacar la basura
+- regar las plantas
+- hacer la cama
   
 El programa debe:
 
@@ -124,14 +126,15 @@ Imagina que estás desarrollando una aplicación para una tienda online. El usua
 El programa mostrará inicialmente un mensaje con las categorías anteriores.
 
 La aplicación una vez leída la categoría elegida mostrará para los tres primeros casos los siguientes mensajes:  
-**Has seleccionado una categoría de productos electrónicos.
-Promoción: Financiación disponible hasta en 12 meses sin intereses.**
+**Has seleccionado una categoría de productos electrónicos.**
+**Promoción: Financiación disponible hasta en 12 meses sin intereses.**
 
 Y en los tres siguientes:  
-**Has seleccionado una categoría de productos de moda.
-Promoción: 3x2 en artículos seleccionados.**
+**Has seleccionado una categoría de productos de moda.**
+**Promoción: 3x2 en artículos seleccionados.**
 
 Y en caso de introducir otra categoría diferente el programa indicará el siguiente mensaje de error:  
+
 **Categoría no reconocida. Por favor, selecciona una opción válida del menú.**
 
 <br>
@@ -142,7 +145,7 @@ Y en caso de introducir otra categoría diferente el programa indicará el sigui
 
 Realizar un programa en el que se pueda ir introduciendo texto. Este texto se irá añadiendo cada vez que pulsemos el botón se añadirá el texto al Label. 
 
-`Ayuda: **"\n"** para introducir fin de línea.`
+Ayuda: **"\n"** para introducir fin de línea.
 
 ![Ejer09](./images/ejer09.png)
 
@@ -247,10 +250,8 @@ El programa debe mostrar por pantalla la lista de todos los tipos de coche, uno 
 
 A partir del código del programa anterior, añadimos lo siguiente:
 
-- El programa pide al usuario que introduzca su tipo de vehículo.
-  
+- El programa pide al usuario que introduzca su tipo de vehículo.  
 - Convertimos la entrada del usuario al enumerado.
-  
 - Si el valor introducido está definido en el enumerado se mostrará mensaje indicando que el vehículo seleccionado es válido. Si no, se indicará que no es válido.
 
 ![Ejer15a](./images/ejer15a.png) ![Ejer15b](./images/ejer15b.png)
@@ -322,13 +323,13 @@ Realizar un programa que **sume** los 10 primeros números (del 1 al 10). Hacer 
 
 En algunos de los ejercicios que vienen a continuación vamos a utilizar `InputBox`, una función del lenguaje Visual Basic, que nos permite introducir un texto con un cuadro de diálogo. 
 
+Crearemos el proyecto de tipo: **Aplicación de Windows Forms**
+
 Para usarla en C#, necesitas importar el espacio de nombres:
 
 ```csharp
 using Microsoft.VisualBasic;
 ```
-
-Y crearemos el proyecto de tipo: **Aplicación de Windows Forms**
 
 Sintaxis:
 ```csharp
@@ -386,7 +387,11 @@ Por ejemplo, el factorial de 5 es 5! = 5 * 4 * 3 * 2 * 1.
 
 Realizar un programa que eleve un numero a una potencia, siendo la base número entero y el exponente también. 
 
-Realizar la potencia mediante productos sucesivos. **5<sup>4</sup> = 5 * 5 * 5 * 5 (Consola)**
+Realizar la potencia mediante productos sucesivos. 
+
+5<sup>4</sup> = 5 * 5 * 5 * 5 
+
+(Consola)
 
 ## Ejercicio 23: Mostrar serie según número
 
