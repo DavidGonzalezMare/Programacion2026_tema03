@@ -6,7 +6,7 @@
 
 # Instrucciones generales
 
-- **Entorno:** Visual Studio 2022 (Community). Proyectos Windows Forms y Consola en C#.
+- **Entorno:** Visual Studio 2026 (Community). Proyectos Windows Forms y Consola en C#.
 - **Alcance del Tema 3:** Sentencias condicionales (`if`, `if-else`, `if` anidado, `switch`), sentencias de repetición (con condición, con contador `for`, `foreach`) y sentencias de salto (`break` y `return`). Método de conversión `Try-Parse`.
 - **Estilo de código (Microsoft):**
   - Variables y parámetros: camelCase (p. ej., precioNeto).

@@ -117,6 +117,8 @@ condicion ? valor_si_true : valor_si_false;
 **Ejemplo:**
 
 ```csharp
+int edad = int.Parse(Console.ReadLine());
+
 string resultado = (edad >= 18) ? "Mayor de edad" : "Menor de edad";
  
 Console.WriteLine(resultado);	//Imprime "Menor de edad"
@@ -153,7 +155,7 @@ else
 
 **Ejemplo:**
 
-```c#
+```csharp
 int edad = 16;
  
 if (edad >= 65)
@@ -581,7 +583,7 @@ static void Main(string[] args)
 
 **Resultado de la ejecución**
 ```
-Días laborales de la semana:
+Días laborables de la semana:
 Lunes
 Martes
 Miercoles
