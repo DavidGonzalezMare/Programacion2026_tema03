@@ -286,7 +286,7 @@ switch (edad)
 
 **Uso de default**
 
-El bloque `default` se ejecuta si ningún `case` coincide con el valor de la expresión. Si se omite, se produce un **error de compilación**.
+El bloque `default` se ejecuta si ningún `case` coincide con el valor de la expresión.
 
 **Importancia del break**
 
